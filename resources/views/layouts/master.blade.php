@@ -46,7 +46,7 @@
           <ul class="nav nav-pills pull-right">
             <li role="presentation" class="active"><a href="/">Page1:Home Page</a></li>
             <li role="presentation"><a href="/showTask">Page2:ShowTask</a></li>
-            <li role="presentation"><a href="#">Page3</a></li>
+            <li role="presentation"><a href="/showSelected">Page3:ShowSelected</a></li>
           </ul>
         </nav>
         <h3 class="text-muted">Task Management System</h3>
