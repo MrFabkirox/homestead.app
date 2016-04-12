@@ -25,6 +25,13 @@ Route::get('showSelected', [
     'uses' => 'ControllerP1@showSelected'
 ]);
 
+Route::get('addTask', [
+    'as' => 'addTask',
+    'uses' => 'ControllerP1@addTask'
+]);
+
+Route::post('save', 'ControllerP1@save');
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes

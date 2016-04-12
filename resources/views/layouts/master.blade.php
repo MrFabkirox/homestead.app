@@ -47,6 +47,8 @@
             <li role="presentation" class="active"><a href="/">Page1:Home Page</a></li>
             <li role="presentation"><a href="/showTask">Page2:ShowTask</a></li>
             <li role="presentation"><a href="/showSelected">Page3:ShowSelected</a></li>
+            <li role="presentation"><a href="/addTask">Page4:addTask</a></li>
+          </ul>
           </ul>
         </nav>
         <h3 class="text-muted">Task Management System</h3>

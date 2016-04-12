@@ -24,8 +24,25 @@ class ControllerP1 extends Controller {
     }
 
     public function showSelected() {
+
+        $result = DB::table('tasks')->get();
         
         return \View::make('p1')
-            ->with('tasks', task::where('id', 0));
+            ->with('tasks', $result);
     }
+
+    public function addTask() {
+    
+        $tasks = DB::select('select * from tasks');
+
+        return \View::make('p2', ['tasks' => $tasks]);
+            
+    }
+    
+    public function save(Request $request) {
+    
+           $post = $request->all();
+           var_dump($post);
+    }
+
 }

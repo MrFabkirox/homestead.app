@@ -18,23 +18,9 @@
 		</p>
 
 		<p>
-			<form method="POST" action="">
-				<input type="textfield" placeholder="enter id">
-			</form>
 		</p>
 
 		<p>
-			{{ Form::open(array('url' => 'showSelected', 'method' => 'POST')) }}
-
-				{{ Form::label('name', 'Name') }}
-				{{ Form::textarea('grub', 'Grub') }}
-
-				{{ Form::label('name', 'Name') }}
-				{{ Form::text('grub', 'Grub') }}
-
-    			{{ Form::submit('Save') }}
-
-			{{ Form::close() }}
 		</p>
 
 @endsection
